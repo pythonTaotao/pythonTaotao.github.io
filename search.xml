@@ -4,6 +4,48 @@
     <title>docker安装教程</title>
     <url>/2020/06/05/docker%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>centos 7安装docker</p>
+<h4 id="一、ubuntu-安装docker"><a href="#一、ubuntu-安装docker" class="headerlink" title="一、ubuntu 安装docker"></a>一、ubuntu 安装docker</h4><p>1、安装包，运行apt能够HTTPS访问Docker源</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get -y install apt-transport-https ca-certificates curl \</span><br><span class="line">software-properties-common</span><br></pre></td></tr></table></figure>
+
+<p>2、添加 Docker 官方的 GPG</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</span><br></pre></td></tr></table></figure>
+
+<p>3、将 Docker 的源添加到 /etc/apt/sources.list</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository \      </span><br><span class="line"><span class="string">"deb [arch=amd64] https://download.docker.com/linux/ubuntu \  </span></span><br><span class="line"><span class="string"><span class="variable">$(lsb_release -cs)</span> \       </span></span><br><span class="line"><span class="string">stable"</span></span><br></pre></td></tr></table></figure>
+
+<p>4、安装并Docker</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get update sudo apt-get install -y docker-ce</span><br></pre></td></tr></table></figure>
+
+<p>5、运行一个测试容器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl start docker &amp;&amp; systemctl <span class="built_in">enable</span> docker docker run -d -p 80:80 nginx</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="二、CentOS系统安装"><a href="#二、CentOS系统安装" class="headerlink" title="二、CentOS系统安装"></a>二、CentOS系统安装</h4><p><strong>需要内核版本&gt;=3.10+</strong></p>
+<p>1)、卸载旧版本的docker和docker-engine</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo yum remove docker \  </span><br><span class="line">     docker-client \   </span><br><span class="line">     docker-client-latest \  </span><br><span class="line">     docker-common \   </span><br><span class="line">     docker-latest \  </span><br><span class="line">     docker-latest-logrotate \   </span><br><span class="line">     docker-logrotate \   </span><br><span class="line">     docker-engine</span><br></pre></td></tr></table></figure>
+
+<p>2)、安装docker依赖软件包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo yum install -y yum-utils \ </span><br><span class="line">     device-mapper-persistent-data lvm2</span><br></pre></td></tr></table></figure>
+
+<p>3)、添加Yum源</p>
+<p>官方yum源 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo yum-config-manager \</span><br><span class="line">--add-repo https:&#x2F;&#x2F;download.docker.com&#x2F;linux&#x2F;centos&#x2F;docker-ce.repo</span><br></pre></td></tr></table></figure>
+
+<p>国内yum源</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo yum-config-manager \ </span><br><span class="line">--add-repo https://mirrors.ustc.edu.cn/docker-ce/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure>
+
+<p>4)、安装docker-ce</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum install docker-ce docker-ce-cli containerd.io -y</span><br><span class="line">systemctl start docker &amp;&amp; systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+
+<p>5)、配置镜像加速</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim /etc/docker/daemon.josn</span><br><span class="line">&#123; </span><br><span class="line">   <span class="string">"registry-mirrors"</span>: [ <span class="string">"https://registry.docker-cn.com"</span> ] </span><br><span class="line">&#125; </span><br><span class="line">$ systemctl daemon-reload &amp;&amp; systemctl restart docker</span><br></pre></td></tr></table></figure>
+
+<p>6)、取消限制https访问，默认必须是https访问</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim /etc/docker/daemon.josn</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">   <span class="string">"insecure-registries"</span>: [ <span class="string">"ip:port"</span> ] </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
   </entry>
   <entry>
