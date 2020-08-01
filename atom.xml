@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo-ytliangc</title>
+  <icon>https://pythontaotao.github.io/icon.png</icon>
+  <subtitle>愿有岁月可回首，且以深情共白头</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://pythontaotao.github.io/"/>
+  <updated>2020-07-23T08:20:34.670Z</updated>
+  <id>https://pythontaotao.github.io/</id>
+  
+  <author>
+    <name>ytlaingc</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kubernetes探针记录</title>
+    <link href="https://pythontaotao.github.io/2020/07/22/kubernetes%E6%8E%A2%E9%92%88%E8%AE%B0%E5%BD%95/"/>
+    <id>https://pythontaotao.github.io/2020/07/22/kubernetes%E6%8E%A2%E9%92%88%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-07-22T20:18:01.000Z</published>
+    <updated>2020-07-23T08:20:34.670Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;kubernetes存在两类探针:分别是存活性探针和就绪性探针&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="探针" scheme="https://pythontaotao.github.io/tags/%E6%8E%A2%E9%92%88/"/>
+    
+      <category term="liveness" scheme="https://pythontaotao.github.io/tags/liveness/"/>
+    
+      <category term="readines" scheme="https://pythontaotao.github.io/tags/readines/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux安装docekr-ce</title>
+    <link href="https://pythontaotao.github.io/2020/07/21/linux%E5%AE%89%E8%A3%85docekr-ce/"/>
+    <id>https://pythontaotao.github.io/2020/07/21/linux%E5%AE%89%E8%A3%85docekr-ce/</id>
+    <published>2020-07-21T14:05:49.000Z</published>
+    <updated>2020-08-01T10:49:21.121Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;简介：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Docker 是一个基于LXC技术上构建开源的应用容器引擎，基于Go语言实现的开源容器项目，以镜像、容器、仓库为核心的软件&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="docker安装" scheme="https://pythontaotao.github.io/tags/docker%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="docker-ce" scheme="https://pythontaotao.github.io/tags/docker-ce/"/>
+    
+      <category term="linux安装docker" scheme="https://pythontaotao.github.io/tags/linux%E5%AE%89%E8%A3%85docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openvpn报错及解决方法</title>
+    <link href="https://pythontaotao.github.io/2020/07/21/openvpn%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://pythontaotao.github.io/2020/07/21/openvpn%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2020-07-21T13:58:23.000Z</published>
+    <updated>2020-07-22T02:03:07.612Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;openvpn的工作模式&quot;&gt;&lt;a href=&quot;#openvpn的工作模式&quot; class=&quot;headerlink&quot; title=&quot;openvpn的工作模式&quot;&gt;&lt;/a&gt;openvpn的工作模式&lt;/h2&gt;&lt;p&gt;tap俗称网桥模式，tun俗称路由模式，tap在二层，tun在三层&lt;/p&gt;
+&lt;p&gt;1、tap可以直接使用route这样的路由表命令，但不能用于手机设备。&lt;/p&gt;
+&lt;p&gt;2、tun可以用于手机，但不能使用route这样的路由表命令，压根无法穿透。&lt;/p&gt;
+&lt;p&gt;3、tap和tun的路由配置区别，tap往往结合路由表进行设定下一跳，而tun则往往要和iptables集合紧密来实现下一跳。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="https://pythontaotao.github.io/categories/linux/"/>
+    
+    
+      <category term="openvpn" scheme="https://pythontaotao.github.io/tags/openvpn/"/>
+    
+      <category term="常见报错" scheme="https://pythontaotao.github.io/tags/%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/"/>
+    
+      <category term="解决方法" scheme="https://pythontaotao.github.io/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell脚本之无交互写法学习</title>
+    <link href="https://pythontaotao.github.io/2020/07/18/shell%E8%84%9A%E6%9C%AC%E4%B9%8B%E6%97%A0%E4%BA%A4%E4%BA%92%E5%86%99%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://pythontaotao.github.io/2020/07/18/shell%E8%84%9A%E6%9C%AC%E4%B9%8B%E6%97%A0%E4%BA%A4%E4%BA%92%E5%86%99%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-07-18T22:52:46.000Z</published>
+    <updated>2020-07-19T10:53:57.518Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前言：&lt;/p&gt;
+&lt;p&gt;借助Expect处理交互的命令,可以将交互 过程如:ssh登录,ftp登录等写在一个脚本上,使之自动化完成.尤其适用于需 要对多台服务器执行相同操作的环境中,可以大大提高系统管理人员的工作效率 &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="shell" scheme="https://pythontaotao.github.io/categories/shell/"/>
+    
+    
+      <category term="脚本" scheme="https://pythontaotao.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="五交互" scheme="https://pythontaotao.github.io/tags/%E4%BA%94%E4%BA%A4%E4%BA%92/"/>
+    
+      <category term="spawn" scheme="https://pythontaotao.github.io/tags/spawn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker-compose学习总结</title>
+    <link href="https://pythontaotao.github.io/2020/07/18/docker-compose%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>https://pythontaotao.github.io/2020/07/18/docker-compose%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2020-07-18T22:45:50.000Z</published>
+    <updated>2020-07-19T10:50:28.201Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h2&gt;&lt;p&gt;Compose是Docker官方的容器编排工具，可以让用户通过编写简单yml模板文件，快速创建和管理基于Docker容器的应用集群&lt;/p&gt;
+&lt;p&gt;Github开源地址：&lt;a href=&quot;https://github.com/docker/compose&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/docker/compose&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="docker-compose" scheme="https://pythontaotao.github.io/tags/docker-compose/"/>
+    
+      <category term="容器编排" scheme="https://pythontaotao.github.io/tags/%E5%AE%B9%E5%99%A8%E7%BC%96%E6%8E%92/"/>
+    
+      <category term="docke" scheme="https://pythontaotao.github.io/tags/docke/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker镜像Dockerfile学习总结</title>
+    <link href="https://pythontaotao.github.io/2020/07/14/Docker%E9%95%9C%E5%83%8FDockerfile%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>https://pythontaotao.github.io/2020/07/14/Docker%E9%95%9C%E5%83%8FDockerfile%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/</id>
+    <published>2020-07-14T23:23:13.000Z</published>
+    <updated>2020-07-15T11:25:24.276Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Dockerfile 是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/tags/docker/"/>
+    
+      <category term="Dockerfile" scheme="https://pythontaotao.github.io/tags/Dockerfile/"/>
+    
+      <category term="镜像构建" scheme="https://pythontaotao.github.io/tags/%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win10家庭教育版安装docker-ce</title>
+    <link href="https://pythontaotao.github.io/2020/07/11/Win10%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E7%89%88%E5%AE%89%E8%A3%85docker-ce/"/>
+    <id>https://pythontaotao.github.io/2020/07/11/Win10%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E7%89%88%E5%AE%89%E8%A3%85docker-ce/</id>
+    <published>2020-07-11T19:01:54.000Z</published>
+    <updated>2020-07-28T03:38:45.847Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;win10家庭版操作系统，无法直接Docker for Windows安装，因此只好使用Docker Toolbox来安装docker&lt;/p&gt;
+&lt;p&gt;什么是Docker Toolbox？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Docker Toolbox is an installer for quick setup and launch of a Docker environment on older Mac and Windows systems that do not meet the requirements of the new &lt;a href=&quot;https://docs.docker.com/docker-for-mac/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Docker Desktop for Mac&lt;/a&gt; and &lt;a href=&quot;https://docs.docker.com/docker-for-windows/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Docker Desktop for Windows&lt;/a&gt; apps.&lt;/p&gt;
+&lt;p&gt;简单来说就是Docker Toolbox就是在旧的Mac 和 Windows系统上快速运行docker环境的工具&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="Win10" scheme="https://pythontaotao.github.io/tags/Win10/"/>
+    
+      <category term="Docker Desktop Install" scheme="https://pythontaotao.github.io/tags/Docker-Desktop-Install/"/>
+    
+      <category term="docker安装" scheme="https://pythontaotao.github.io/tags/docker%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Harbor镜像仓库v2.0.1安装及使用</title>
+    <link href="https://pythontaotao.github.io/2020/07/11/Harbor%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93v2-0-1%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
+    <id>https://pythontaotao.github.io/2020/07/11/Harbor%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93v2-0-1%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-07-11T17:53:54.000Z</published>
+    <updated>2020-07-12T05:57:33.239Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Harbor简介&quot;&gt;&lt;a href=&quot;#Harbor简介&quot; class=&quot;headerlink&quot; title=&quot;Harbor简介&quot;&gt;&lt;/a&gt;Harbor简介&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/07/12/MF5oDPOXIblENKS.png&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://goharbor.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://goharbor.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Harbor（港口，港湾）是一个用于存储和分发Docker镜像的企业级Registry服务器。除了Harbor这个私有镜像仓库之外，还有Docker官方提供的Registry。相对Registry，Harbor具有很多优势：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="Habor" scheme="https://pythontaotao.github.io/tags/Habor/"/>
+    
+      <category term="私有镜像库" scheme="https://pythontaotao.github.io/tags/%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E5%BA%93/"/>
+    
+      <category term="images" scheme="https://pythontaotao.github.io/tags/images/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker-compose安装Hadoop+hive+MySQL</title>
+    <link href="https://pythontaotao.github.io/2020/07/11/docker-compose%E5%AE%89%E8%A3%85Hadoop-hive-MySQL/"/>
+    <id>https://pythontaotao.github.io/2020/07/11/docker-compose%E5%AE%89%E8%A3%85Hadoop-hive-MySQL/</id>
+    <published>2020-07-11T15:52:22.000Z</published>
+    <updated>2020-07-12T04:12:38.137Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先特别感谢参考的博客，感谢作者&lt;code&gt;Victor_python&lt;/code&gt;是你指明了我探索的道路，让我能顺利完成本博客的内容。参考连接：&lt;a href=&quot;https://www.jianshu.com/p/8c46d935c81b&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;docker下安装hive 2.3.4&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://pythontaotao.github.io/tags/docker/"/>
+    
+      <category term="docker-compose" scheme="https://pythontaotao.github.io/tags/docker-compose/"/>
+    
+      <category term="hadoop+hive+mysql" scheme="https://pythontaotao.github.io/tags/hadoop-hive-mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>helm部署OpenVPN 4.2.3</title>
+    <link href="https://pythontaotao.github.io/2020/07/06/helm%E9%83%A8%E7%BD%B2OpenPN-4-2-3/"/>
+    <id>https://pythontaotao.github.io/2020/07/06/helm%E9%83%A8%E7%BD%B2OpenPN-4-2-3/</id>
+    <published>2020-07-06T23:06:05.000Z</published>
+    <updated>2020-07-07T11:09:17.093Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;简单介绍&lt;/strong&gt;： &lt;/p&gt;
+&lt;p&gt;VPN直译就是虚拟专用通道，是提供给企业之间或者个人与公司之间&lt;a href=&quot;https://baike.baidu.com/item/安全数据传输/3166604&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;安全数据传输&lt;/a&gt;的隧道，OpenVPN无疑是Linux下开源VPN的先锋，提供了良好的性能和友好的用户GUI。 &lt;/p&gt;
+&lt;p&gt;它大量使用了OpenSSL加密库中的SSLv3/TLSv1协议函数库。 &lt;/p&gt;
+&lt;p&gt;目前OpenVPN能在Solaris、Linux、OpenBSD、FreeBSD、NetBSD、Mac OS X与Microsoft Windows以及Android和iOS上运行，并包含了许多安全性的功能。它并不是一个基于Web的VPN软件，也不与IPsec及其他VPN软件包兼容&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="helm" scheme="https://pythontaotao.github.io/tags/helm/"/>
+    
+      <category term="OpenVPN" scheme="https://pythontaotao.github.io/tags/OpenVPN/"/>
+    
+      <category term="容器" scheme="https://pythontaotao.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kubernetes安装MySql 5.7主从复制集群</title>
+    <link href="https://pythontaotao.github.io/2020/07/05/kubernetes%E5%AE%89%E8%A3%85MySql-5-7%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%9B%86%E7%BE%A4/"/>
+    <id>https://pythontaotao.github.io/2020/07/05/kubernetes%E5%AE%89%E8%A3%85MySql-5-7%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%9B%86%E7%BE%A4/</id>
+    <published>2020-07-06T01:25:45.000Z</published>
+    <updated>2020-07-19T10:57:09.839Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;部署原理&quot;&gt;&lt;a href=&quot;#部署原理&quot; class=&quot;headerlink&quot; title=&quot;部署原理&quot;&gt;&lt;/a&gt;部署原理&lt;/h1&gt;&lt;p&gt;使用 statefulset控制器部署mysql主从集群的原理如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/07/07/oCg3Vwx8PHvu1hB.png&quot; alt=&quot;Snipaste_2020-07-06_21-35-04.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;官方地址： &lt;a href=&quot;https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/?spm=a2c4e.10696291.0.0.1efb19a4ykprHR&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Run a Replicated Stateful&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考博客：&lt;a href=&quot;https://blog.csdn.net/qq_35887546/article/details/105957214&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CSDN博客&lt;/a&gt; &lt;a href=&quot;https://yq.aliyun.com/articles/646191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阿里云博客&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="MySql" scheme="https://pythontaotao.github.io/tags/MySql/"/>
+    
+      <category term="5.7" scheme="https://pythontaotao.github.io/tags/5-7/"/>
+    
+      <category term="主从复制" scheme="https://pythontaotao.github.io/tags/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/"/>
+    
+      <category term="集群" scheme="https://pythontaotao.github.io/tags/%E9%9B%86%E7%BE%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kubernetes部署dashboard v2.0.3</title>
+    <link href="https://pythontaotao.github.io/2020/07/04/kubernetes%E9%83%A8%E7%BD%B2dashboard-v2-0-3/"/>
+    <id>https://pythontaotao.github.io/2020/07/04/kubernetes%E9%83%A8%E7%BD%B2dashboard-v2-0-3/</id>
+    <published>2020-07-04T15:13:52.000Z</published>
+    <updated>2020-07-05T03:27:55.803Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;kubernetes部署dashboard v2.0.3&lt;/p&gt;
+&lt;p&gt;前言：之前部署过dashboard v1.x的版本，后来dashboard升级了，按照之前的部署方式部署后，总是出现无法访问的现象，后面又去github找到最新版的dashboard 部署方式，特此记录&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="dashboard" scheme="https://pythontaotao.github.io/tags/dashboard/"/>
+    
+      <category term="UI" scheme="https://pythontaotao.github.io/tags/UI/"/>
+    
+      <category term="部署" scheme="https://pythontaotao.github.io/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot项目部署到k8s集群</title>
+    <link href="https://pythontaotao.github.io/2020/07/03/Springboot%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%88%B0k8s%E9%9B%86%E7%BE%A4/"/>
+    <id>https://pythontaotao.github.io/2020/07/03/Springboot%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%88%B0k8s%E9%9B%86%E7%BE%A4/</id>
+    <published>2020-07-03T19:50:55.000Z</published>
+    <updated>2020-07-12T03:30:58.429Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Springboot快速入门&quot;&gt;&lt;a href=&quot;#Springboot快速入门&quot; class=&quot;headerlink&quot; title=&quot;Springboot快速入门&quot;&gt;&lt;/a&gt;Springboot快速入门&lt;/h2&gt;&lt;p&gt;简介：Springboot使你可以非常容器的创建一个独立的、生产级的、基于spring的应用。它大量简化了使用spring带来的繁琐的配置，大部分基于SpringBoot的应用只需要一点点的配置&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;特征：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;独立的spring应用（内置tomcat、jetty，无需部署war包）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;提供 丰富的”starter”依赖，简化应用构建配置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自动配置spring和第三方依赖库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;没有代码生成，没有xml配置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;提供准生成功能，如指标，健康检查和外部配置&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;访问官网：&lt;a href=&quot;https://start.spring.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://start.spring.io/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="springboot" scheme="https://pythontaotao.github.io/tags/springboot/"/>
+    
+      <category term="容器化" scheme="https://pythontaotao.github.io/tags/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
+    
+      <category term="k8s" scheme="https://pythontaotao.github.io/tags/k8s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kubeadm部署单master节点kubernetes集群</title>
+    <link href="https://pythontaotao.github.io/2020/06/30/kubeadm%E9%83%A8%E7%BD%B2%E5%8D%95master%E8%8A%82%E7%82%B9kubernetes%E9%9B%86%E7%BE%A4/"/>
+    <id>https://pythontaotao.github.io/2020/06/30/kubeadm%E9%83%A8%E7%BD%B2%E5%8D%95master%E8%8A%82%E7%82%B9kubernetes%E9%9B%86%E7%BE%A4/</id>
+    <published>2020-06-30T22:59:06.000Z</published>
+    <updated>2020-07-05T03:41:49.897Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Kubeadm 是一个官方推荐部署kubernetes工具，降低了部署难度，提高效率它提供了 &lt;code&gt;kubeadm init&lt;/code&gt; 以及 &lt;code&gt;kubeadm join&lt;/code&gt; 这两个命令作为快速创建 kubernetes 集群的最佳实践。kubeadm 通过执行必要的操作来启动和运行一个最小可用的集群。它被故意设计为只关心启动集群，而不是准备节点环境的工作。同样的，诸如安装各种各样的可有可无的插件，也不再它的负责范围&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="kubeadm" scheme="https://pythontaotao.github.io/tags/kubeadm/"/>
+    
+      <category term="kubernetes部署" scheme="https://pythontaotao.github.io/tags/kubernetes%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kubernetes基础概念入门</title>
+    <link href="https://pythontaotao.github.io/2020/06/29/kubernetes%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8/"/>
+    <id>https://pythontaotao.github.io/2020/06/29/kubernetes%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8/</id>
+    <published>2020-06-30T01:13:55.000Z</published>
+    <updated>2020-06-30T13:16:21.404Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.&lt;/p&gt;
+&lt;p&gt;k8s是一个开源的云操作系统，能够用来自动化部署，扩缩容和管理我们的容器应用，简单来说，就是提供了容器编排和管理功能的系统&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/categories/kubernetes/"/>
+    
+    
+      <category term="kubernetes" scheme="https://pythontaotao.github.io/tags/kubernetes/"/>
+    
+      <category term="基础概念" scheme="https://pythontaotao.github.io/tags/%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github+hexo搭建个人博客</title>
+    <link href="https://pythontaotao.github.io/2020/06/28/github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://pythontaotao.github.io/2020/06/28/github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-06-28T23:44:13.000Z</published>
+    <updated>2020-06-29T11:55:36.972Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前言：搭建个人博客也是心血来潮，很久之前就看到别人的博客很清新、简约、大气、时尚又装逼，嘿嘿。。。就想着自己折腾一个，奈何当时技术能力有限，连github都玩不转，当然以失败告终，最近又头脑发热，遂百度了n多资料，又开始了填（bei）坑(nue）之旅，而且能找到的资料大多仅仅就是搭建起来，作为一个强迫症患者，肯定不能忍受没有优化过的样子，所以本着搭建一个完整的博客并记录优化过程，如果你喜欢我博客的样子，参考此教程一定能够搭建起来差不多的样子。&lt;/p&gt;
+&lt;p&gt;我的博客：&lt;a href=&quot;https://pythontaotao.github.io/&quot;&gt;https://pythontaotao.github.io/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://pythontaotao.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://pythontaotao.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="https://pythontaotao.github.io/tags/next/"/>
+    
+      <category term="个人博客" scheme="https://pythontaotao.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://pythontaotao.github.io/2020/06/28/hello-world/"/>
+    <id>https://pythontaotao.github.io/2020/06/28/hello-world/</id>
+    <published>2020-06-28T11:25:26.318Z</published>
+    <updated>2020-06-28T11:25:26.318Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>proxmox（pve）安装Win10系统虚拟机</title>
+    <link href="https://pythontaotao.github.io/2020/06/26/proxmox-pve-%E5%AE%89%E8%A3%85Win10%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://pythontaotao.github.io/2020/06/26/proxmox-pve-%E5%AE%89%E8%A3%85Win10%E7%B3%BB%E7%BB%9F/</id>
+    <published>2020-06-27T00:16:10.000Z</published>
+    <updated>2020-06-28T11:24:30.534Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装proxmox-ve&quot;&gt;&lt;a href=&quot;#安装proxmox-ve&quot; class=&quot;headerlink&quot; title=&quot;安装proxmox ve&quot;&gt;&lt;/a&gt;安装proxmox ve&lt;/h2&gt;&lt;p&gt;Proxmox VE是一个完整的企业虚拟化开源平台。借助内置的Web界面，您可以轻松管理虚拟机和容器，软件定义的存储和网络，高可用性集群以及单个解决方案上的多个现成工具。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="虚拟化" scheme="https://pythontaotao.github.io/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+    
+      <category term="proxmox" scheme="https://pythontaotao.github.io/tags/proxmox/"/>
+    
+      <category term="pve" scheme="https://pythontaotao.github.io/tags/pve/"/>
+    
+      <category term="win10" scheme="https://pythontaotao.github.io/tags/win10/"/>
+    
+      <category term="虚拟化" scheme="https://pythontaotao.github.io/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+  </entry>
+  
+</feed>
