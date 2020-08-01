@@ -106,7 +106,7 @@
     <title>linux安装docekr-ce</title>
     <url>/2020/07/21/linux%E5%AE%89%E8%A3%85docekr-ce/</url>
     <content><![CDATA[<p><strong>简介：</strong></p>
-<p>Docker 是一个基于LXC技术上构建开源的应用容器引擎，基于Go语言实现的开源容器项目，以镜像、容器、仓库为核心的软件</p>
+<p>Docker 是一个基于LXC技术上构建开源的应用容器引擎，基于Go语言实现的开源容器项目，以<strong>镜像、容器、仓库</strong>为核心的软件</p>
 <a id="more"></a>
 <p><strong>Docker架构图：</strong></p>
 <p><img src="https://i.loli.net/2020/07/22/o6Qv7nJudBayU9R.jpg" alt="docker架构图.jpg"></p>

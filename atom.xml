@@ -46,12 +46,12 @@
     <link href="https://pythontaotao.github.io/2020/07/21/linux%E5%AE%89%E8%A3%85docekr-ce/"/>
     <id>https://pythontaotao.github.io/2020/07/21/linux%E5%AE%89%E8%A3%85docekr-ce/</id>
     <published>2020-07-21T14:05:49.000Z</published>
-    <updated>2020-08-01T10:49:21.121Z</updated>
+    <updated>2020-08-01T15:09:21.962Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;简介：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Docker 是一个基于LXC技术上构建开源的应用容器引擎，基于Go语言实现的开源容器项目，以镜像、容器、仓库为核心的软件&lt;/p&gt;
+&lt;p&gt;Docker 是一个基于LXC技术上构建开源的应用容器引擎，基于Go语言实现的开源容器项目，以&lt;strong&gt;镜像、容器、仓库&lt;/strong&gt;为核心的软件&lt;/p&gt;
     
     </summary>
     
