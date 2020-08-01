@@ -546,7 +546,9 @@
 <p>下载后放在<code>C:\Users\Administrator\.docker\machine\cache</code>下面，如果是有特别的用户，放到指定用户下的目录即可</p>
 <h3 id="启动docker"><a href="#启动docker" class="headerlink" title="启动docker"></a>启动docker</h3><p>双击<code>Docker Quickstart Terminal</code>, 如果出现如下页面，说明Docker已启动成功</p>
 <p><img src="https://i.loli.net/2020/07/22/7fYMDB34PlLHZqG.png" alt="Snipaste_2020-07-22_10-32-07.png"></p>
-<h3 id="6、常见问题及解决方法"><a href="#6、常见问题及解决方法" class="headerlink" title="6、常见问题及解决方法"></a>6、常见问题及解决方法</h3><p>6.1、docker version报错“error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.28/version: open //./pipe/docker_ ”<br><img src="https://i.loli.net/2020/08/01/8rQm3DkCixLReyu.png" alt="image.png"></p>
+<h3 id="6、常见问题及解决方法"><a href="#6、常见问题及解决方法" class="headerlink" title="6、常见问题及解决方法"></a>6、常见问题及解决方法</h3><p align="left">6.1、docker version报错“error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.28/version: open //./pipe/docker_ ”</p>
+
+<p><img src="https://i.loli.net/2020/08/01/8rQm3DkCixLReyu.png" alt="image.png"></p>
 <p>错误原因：可能是之前卸载virtual box没重启，重新安装后virtual box环境设定没配置上。</p>
 <p>处理方法：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker-machine env --shell cmd default</span><br><span class="line">//或者</span><br><span class="line">docker-machine env default</span><br></pre></td></tr></table></figure>
