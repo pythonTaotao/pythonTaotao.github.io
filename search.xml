@@ -452,11 +452,17 @@
 <td>复制内容到镜像，目标路径不存在时会自动创建</td>
 </tr>
 </tbody></table>
+<p><strong>注意</strong>：<code>expose</code>指令是声明运行时容器提供服务端口， 这只是一个声明， 在运行时并不会因为这个声明应用就会开启这个端口的服务 </p>
 <p>FROM用法</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ARG VERSION=9.3</span><br><span class="line">FROM debian:$VERSION</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ARG VERSION=9.3</span><br><span class="line">FROM debian:$VERSION</span><br><span class="line"></span><br><span class="line">FROM scratch    #从空白镜像开始</span><br></pre></td></tr></table></figure>
 
 <p>RUN用法</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">RUN apt-get update \</span><br><span class="line">    &amp;&amp; apt-get install -y net-tools unzip vim zip curl git wget apt-utils \</span><br><span class="line">    &amp;&amp; rm -rf /var/lib/apt/lists/*</span><br></pre></td></tr></table></figure>
+
+<p>COPY用法</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">格式</span></span><br><span class="line">COPY &lt;源路径&gt;... &lt;目标路径&gt;</span><br><span class="line">COPY ["&lt;源路径1&gt;",... "&lt;目标路径&gt;"]</span><br><span class="line"></span><br><span class="line">COPY package.json /usr/src/app/     #可以匹配通配符</span><br></pre></td></tr></table></figure>
+
+
 
 <p>CMD用法</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">CMD ["executable","param1","param2"]</span><br></pre></td></tr></table></figure>
