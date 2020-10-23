@@ -28,7 +28,7 @@
 <meta property="og:description" content="openvpn的工作模式tap俗称网桥模式，tun俗称路由模式，tap在二层，tun在三层 1、tap可以直接使用route这样的路由表命令，但不能用于手机设备。 2、tun可以用于手机，但不能使用route这样的路由表命令，压根无法穿透。 3、tap和tun的路由配置区别，tap往往结合路由表进行设定下一跳，而tun则往往要和iptables集合紧密来实现下一跳。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-21T13:58:23.000Z">
-<meta property="article:modified_time" content="2020-07-22T02:03:07.612Z">
+<meta property="article:modified_time" content="2020-10-23T13:03:21.038Z">
 <meta property="article:author" content="ytlaingc">
 <meta property="article:tag" content="openvpn">
 <meta property="article:tag" content="常见报错">
@@ -313,7 +313,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-22 10:03:07" itemprop="dateModified" datetime="2020-07-22T10:03:07+08:00">2020-07-22</time>
+                <time title="修改时间：2020-10-23 21:03:21" itemprop="dateModified" datetime="2020-10-23T21:03:21+08:00">2020-10-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -379,6 +379,7 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">route-method exe</span><br><span class="line">route-delay 2</span><br></pre></td></tr></table></figure>
 
 <p>警告4：需要多个客户端使用一个证书连接服务端</p>
+<p>解决：在server端添加配置</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">允许多个客户端使用相同证书连接  <span class="comment">#常用于测试开启的话一个证书可以多个客户端连接</span></span></span><br><span class="line">duplicate-cn</span><br></pre></td></tr></table></figure>
 
 

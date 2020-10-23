@@ -196,6 +196,7 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">route-method exe</span><br><span class="line">route-delay 2</span><br></pre></td></tr></table></figure>
 
 <p>警告4：需要多个客户端使用一个证书连接服务端</p>
+<p>解决：在server端添加配置</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">允许多个客户端使用相同证书连接  <span class="comment">#常用于测试开启的话一个证书可以多个客户端连接</span></span></span><br><span class="line">duplicate-cn</span><br></pre></td></tr></table></figure>
 
 
